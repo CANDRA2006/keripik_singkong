@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Galeri - Keripik Singkong Candra</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                🍠 Keripik Singkong Candra
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tentang.html">Tentang Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" href="produk.html">Produk</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="galeri.html">Galeri</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="section-spacing">
+        <div class="container">
+            <!-- Alert Informasi -->
+            <div class="alert info-alert" role="alert">
+                <h4 class="alert-heading">
+                    <i class="fas fa-info-circle text-warning"></i> Cara Berinteraksi
+                </h4>
+                <p class="mb-0">
+                    <strong>Klik</strong> card untuk menampilkan/menyembunyikan detail produk • 
+                    <strong>Hover</strong> untuk efek animasi • 
+                    <strong>Double-click</strong> untuk reset card
+                </p>
+            </div>
+
+            <h2 class="text-center mb-4" style="color: var(--primary-color); font-weight: 700;">
+                Galeri Produk Kami
+                <span class="badge badge-custom ms-2">6 Produk</span>
+            </h2>
+
+            <!-- Gallery Grid -->
+            <div class="row g-4" id="galleryGrid">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card gallery-card" data-product="Original">
+                        <img src="Assets/Original.jpg" alt="Keripik Singkong Original" class="card-img-top">
+                        <div class="card-body card-content-hidden">
+                            <h5 class="card-title">Keripik Singkong Original</h5>
+                            <p class="card-text">Rasa gurih alami dengan kerenyahan maksimal. Cocok untuk semua suasana.</p>
+                            <span class="badge bg-success">Tersedia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card gallery-card" data-product="Balado">
+                        <img src="Assets/Balado.jpg" alt="Keripik Singkong Balado" class="card-img-top">
+                        <div class="card-body card-content-hidden">
+                            <h5 class="card-title">Keripik Singkong Balado</h5>
+                            <p class="card-text">Sensasi pedas menggoda yang bikin ketagihan, cocok untuk para pecinta cabai!</p>
+                            <span class="badge bg-danger">Hot!</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card gallery-card" data-product="Bawang">
+                        <img src="Assets/Bawang.jpg" alt="Keripik Singkong Bawang" class="card-img-top">
+                        <div class="card-body card-content-hidden">
+                            <h5 class="card-title">Keripik Singkong Bawang</h5>
+                            <p class="card-text">Aroma bawang yang harum dan rasa yang gurih membuat keripik ini sulit dilupakan.</p>
+                            <span class="badge bg-warning text-dark">Best Seller</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card gallery-card" data-product="Keju">
+                        <img src="Assets/Keju.jpg" alt="Keripik Singkong Keju" class="card-img-top">
+                        <div class="card-body card-content-hidden">
+                            <h5 class="card-title">Keripik Singkong Keju</h5>
+                            <p class="card-text">Inovasi terbaru dengan taburan keju premium yang creamy dan lezat.</p>
+                            <span class="badge bg-info">Premium</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card gallery-card" data-product="Jagung">
+                        <img src="Assets/Jagung.jpg" alt="Keripik Singkong Jagung" class="card-img-top">
+                        <div class="card-body card-content-hidden">
+                            <h5 class="card-title">Keripik Singkong Jagung</h5>
+                            <p class="card-text">Rasa Jagung yang gurih dan membekas di lidah.</p>
+                            <span class="badge bg-primary">New!</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card gallery-card" data-product="Proses">
+                        <img src="Assets/Proses_Panen.jpg" alt="Proses Panen Singkong" class="card-img-top">
+                        <div class="card-body card-content-hidden">
+                            <h5 class="card-title">Proses Panen Singkong</h5>
+                            <p class="card-text">Proses pemanenan singkong dengan melibatkan petani lokal.</p>
+                            <span class="badge bg-secondary">Behind the Scenes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Control Buttons -->
+            <div class="text-center mt-5">
+                <button class="btn btn-primary btn-lg me-2" id="showAllBtn">
+                    <i class="fas fa-eye"></i> Tampilkan Semua
+                </button>
+                <button class="btn btn-secondary btn-lg" id="hideAllBtn">
+                    <i class="fas fa-eye-slash"></i> Sembunyikan Semua
+                </button>
+            </div>
+
+            <!-- Statistics -->
+            <div class="alert alert-info mt-4 text-center" id="statsAlert" style="display: none;">
+                <strong>Statistik:</strong> <span id="visibleCount">0</span> card ditampilkan | 
+                <span id="totalClicks">0</span> total klik
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Keripik Singkong Candra. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+
+  <!-- jQuery & Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script src="galeri.js"></script>
+</body>
+</html>

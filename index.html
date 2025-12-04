@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keripik Singkong Candra - Beranda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- KOMPONEN BOOTSTRAP #1: NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                🍠 Keripik Singkong Candra
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tentang.html">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="produk.html">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak.html">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.html">Galeri</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="animate-title">Keripik Singkong Candra</h1>
+            <p class="lead animate-text">Nikmati kelezatan keripik singkong premium dengan berbagai varian rasa yang menggugah selera. Dibuat dengan bahan-bahan pilihan dan resep turun temurun.</p>
+        </div>
+    </section>
+
+    <!-- Introduction-->
+    <section class="section-spacing bg-light" id="produk-unggulan">
+        <div class="container">
+            <h2 class="text-center section-title">Varian Produk</h2>
+            <p class="text-center text-muted mb-5">Keripik singkong berkualitas premium dengan berbagai pilihan rasa</p>
+            
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="3"></button>
+                            <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="4"></button>
+                        </div>
+                        <div class="carousel-inner rounded shadow">
+                            <div class="carousel-item active">
+                                <img src="Assets/Original.jpg" class="d-block w-100" alt="Keripik Singkong Original" style="height: 400px; object-fit: cover;">
+                                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                                    <h5>Rasa Original</h5>
+                                    <p>Gurih alami, renyah sempurna</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Assets/Keju.jpg" class="d-block w-100" alt="Keripik Singkong Keju" style="height: 400px; object-fit: cover;">
+                                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                                    <h5>Rasa Keju</h5>
+                                    <p>Creamy dan gurih keju premium</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Assets/Balado.jpg" class="d-block w-100" alt="Keripik Singkong Balado" style="height: 400px; object-fit: cover;">
+                                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                                    <h5>Rasa Balado</h5>
+                                    <p>Perpaduan gurih, renyah dan pedas balado</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Assets/Bawang.jpg" class="d-block w-100" alt="Keripik Singkong Bawang" style="height: 400px; object-fit: cover;">
+                                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                                    <h5>Rasa Bawang</h5>
+                                    <p>Rasa gurih Bawang khas nusantara</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Assets/Jagung.jpg" class="d-block w-100" alt="Keripik Singkong Jagung" style="height: 400px; object-fit: cover;">
+                                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                                    <h5>Rasa Jagung</h5>
+                                    <p>Manis jagung yang lezat</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Keripik Singkong Premium</h3>
+                    <div class="accordion" id="productAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                    <i class="fas fa-leaf text-success me-2"></i> Bahan Berkualitas
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#productAccordion">
+                                <div class="accordion-body">
+                                    Kami menggunakan singkong pilihan yang segar dan berkualitas tinggi. Setiap singkong dipilih secara teliti untuk memastikan tekstur yang sempurna dan rasa yang konsisten.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                    <i class="fas fa-heart text-danger me-2"></i> Resep Turun Temurun
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#productAccordion">
+                                <div class="accordion-body">
+                                    Dibuat dengan resep keluarga yang telah diwariskan secara turun temurun, memberikan cita rasa khas yang tidak akan Anda temukan di tempat lain.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                    <i class="fas fa-certificate text-primary me-2"></i> Higienis & Aman
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#productAccordion">
+                                <div class="accordion-body">
+                                    Diproduksi dengan standar kebersihan yang ketat dan menggunakan kemasan yang aman untuk menjaga kualitas dan kesegaran produk hingga ke tangan Anda.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                                    <i class="fas fa-star text-warning me-2"></i> Varian Rasa Lengkap
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#productAccordion">
+                                <div class="accordion-body">
+                                    Tersedia dalam berbagai varian rasa: Original, Pedas, Balado, Keju, Bawang, yang dijamin membuat anda ketagihan. Setiap varian memiliki karakteristik unik yang pasti memuaskan selera Anda.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <a href="produk.html" class="btn btn-primary btn-lg">
+                            <i class="fas fa-shopping-cart me-2"></i>Pesan Sekarang
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KOMPONEN BOOTSTRAP #2: CARDS - Contact Section -->
+    <section class="section-spacing" id="kontak">
+        <div class="container">
+            <h2 class="text-center section-title">Kontak kami</h2>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card contact-card hover-card">
+                        <div class="card-body text-center">
+                            <h3><i class="fas fa-map-marker-alt text-danger"></i> Alamat</h3>
+                            <p>Jl. Raya Bulakpelem No. 3<br>
+                            Dukuh Gombong, Kelurahan Sragi<br>
+                            Pekalongan, Jawa Tengah 51155</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="card contact-card hover-card">
+                        <div class="card-body text-center">
+                            <h3><i class="fas fa-phone text-success"></i> Telepon</h3>
+                            <p>Telp. +62 896-4486-9711<br>
+                            WhatsApp: +62 896-4486-9711</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="card contact-card hover-card">
+                        <div class="card-body text-center">
+                            <h3><i class="fas fa-envelope text-primary"></i> Email</h3>
+                            <p>chandraq818@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="card contact-card hover-card">
+                        <div class="card-body text-center">
+                            <h3><i class="fas fa-clock text-warning"></i> Jam Operasional</h3>
+                            <p>Senin - Jumat: 08.00 - 17.00<br>
+                            Sabtu: 08.00 - 15.00<br>
+                            Minggu: Tutup</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="section-spacing">
+        <div class="container">
+            <div class="social-section">
+                <h3 class="text-center mb-4">
+                    <i class="fas fa-star text-warning"></i> Ikuti Kami di Media Sosial
+                </h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=100092267325609" target="_blank" class="facebook social-icon" title="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/keripik_candra?igsh=MTVsejFvNnMwajB5cw==" target="_blank" class="instagram social-icon" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/6289644869711" target="_blank" class="whatsapp social-icon" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Keripik Singkong Candra. Semua hak cipta dilindungi.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS & jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
